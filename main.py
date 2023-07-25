@@ -108,7 +108,7 @@ if adjusted_weights_df_bottom is not None:
 
 # Plot the price series
 with col1:
-    st.write("Nasdaq 100 simulation based on weights and n top/bottom performers")
+    st.write("Nasdaq 100 simulation based on weights and n top/bottom weights")
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=prices.index, y=nasdaq_price_series, mode='lines', name='NASDAQ 100'))
     fig.add_trace(go.Scatter(x=prices.index, y=custom_price_series_top, mode='lines', name='Custom Index (Top)'))
