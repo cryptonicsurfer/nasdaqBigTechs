@@ -71,7 +71,7 @@ col1, col2 = st.columns(2)
 with col1:
     num_stocks_top = st.slider(f'Number of Top Stocks, based on weight', min_value=1, max_value=100, value=20)
 with col2:
-    num_stocks_bottom = st.slider('Number of Bottom Stocks, based on weight', min_value=0, max_value=99, value=20)
+    num_stocks_bottom = st.slider('Number of Bottom Stocks, based on weight', min_value=0, max_value=99, value=80)
 
 
 # Convert the year to datetime format for start and end dates
